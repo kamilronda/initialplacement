@@ -1,0 +1,190 @@
+/* 
+Colour Scheme:
+    Yellow #FFD311   -   255, 211, 17
+    White #FBFBFB
+    LightGrey #f1f1f1  -  241, 241, 241
+    Black #000000
+*/
+
+body {
+    background-color: #FBFBFB;
+}
+
+/* Logo */
+.animated-logo {
+    display: block;
+    margin: 20px auto 5px auto;
+    width: 50%;
+}
+/* Navigation */
+.nav {
+    padding-bottom: 5px;
+    border-bottom: 4px solid #FFD311;
+}
+.nav-link {
+    font-size: 1.2rem;
+    color: #000000;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    color: #FFD311;
+    border-bottom: 2px solid #000000;
+}
+
+/* Carousel */
+.carousel-container {
+    padding: 0;
+    box-shadow: 
+         inset 0 -3em 3em rgba(0,0,0,0.1), 
+               0.3em 0.3em 1em rgba(255, 211, 17,0.7);
+}
+.img-fluid {
+    max-width: 100%;
+    height: 70vh;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    margin:auto;
+}
+
+/* Information Cards */
+.how-section1{
+    margin-top:-15%;
+    margin: -10% 2.5% 0 2.5%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.how-section1 .subheading{
+    color: #000000;
+    font-size: 20px;
+    
+}
+.information-card-text {
+    background-color: #f1f1f1;
+    /* background-image: linear-gradient(#FBFBFB, #FFD311); */
+    border: none;
+    border-radius: 10px 25px;
+    box-shadow: 
+         inset 0 -3em 3em rgba(0,0,0,0.1), 
+               0.3em 0.3em 1em rgba(255, 211, 17,0.7);
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    height: auto;
+    width: 40%;
+}
+
+.my-card
+{
+    position:absolute;
+    left:40%;
+    top:-20px;
+    border-radius:50%;
+}
+
+/* Footer */
+footer {
+    background-color: #FFD311;
+    font-size: 1rem;
+}
+
+.footer-link {
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+.footer-link:hover {
+    color: #000000;
+}
+
+.freelance-heading {
+    text-align: left;
+}
+
+.freelance-heading span { 
+    background-color: #FFD311; 
+}
+
+
+/* Freelance page card */
+.CustomCard {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(241, 241, 241, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 15px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 
+         inset 0 -3em 3em rgba(0,0,0,0.1), 
+               0.3em 0.3em 1em rgba(255, 211, 17,0.7);
+}
+
+.CustomCard.hoverCustomCard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.CustomCard.hoverCustomCard .CustomCardheader {
+  background-size: cover;
+  background-color: #FFD311;
+  height: 85px;
+}
+
+.CustomCard.hoverCustomCard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.CustomCard.hoverCustomCard .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,0.5);
+}
+
+.CustomCard.hoverCustomCard .info {
+  padding: 4px 8px 10px;
+}
+
+.CustomCard.hoverCustomCard .info .desc {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+.CustomCard.hoverCustomCard .bottom {
+  padding: 20px 5px;
+  margin-bottom: -6px;
+  text-align: center;
+}
+
+.btn{ border-radius: 50%; width:30px; height:30px; line-height:18px;  }
